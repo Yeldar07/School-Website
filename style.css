@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("Font/Montserrat/Montserrat-SemiBold.eot");
+  src: url("Font/Montserrat/Montserrat-SemiBold.woff2") format("woff2"), url("Font/Montserrat/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pacifico";
+  src: url("Fonts/Pacifico/Pacifico-Regular.eot");
+  src: url("Fonts/Pacifico/Pacifico-Regular.woff2") format("woff2"), url("Fonts/Pacifico/Pacifico-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.front,
+.back,
+.ux {
+  width: 200px;
+  margin: 0 10px;
+}
+
+.courses, .info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  background-color: rgb(31, 31, 31);
+  padding: 10px 0 10px;
+  margin-top: 30px;
+  border-top: 1px solid rgb(247, 190, 33);
+}
+
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+form {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(247, 190, 33);
+  margin-bottom: 15px;
+}
+
+.social-icons .brands {
+  width: 50px;
+  height: 40px;
+  border-radius: 20%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: white;
+  background: linear-gradient(90deg, rgb(72, 69, 255) 0%, rgb(0, 255, 158) 100%);
+  margin-right: 15px;
+  cursor: pointer;
+  border: 1px solid rgb(247, 190, 33);
+}
+
+hr.hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid rgb(247, 190, 33);
+  margin: 20px auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(72, 69, 255);
+  background: linear-gradient(90deg, rgb(72, 69, 255) 0%, rgb(0, 255, 158) 100%);
+  background-repeat: no-repeat;
+}
+
+.info {
+  overflow: hidden;
+}
+
+.about {
+  background-color: rgb(31, 31, 31);
+  padding: 20px 40px;
+  width: 900px;
+  height: 250px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  border: 1px solid rgb(247, 190, 33);
+}
+
+.courses {
+  padding-top: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.text-primery {
+  color: rgb(247, 190, 33);
+  font-family: Montserrat;
+  text-align: center;
+}
+
+.text-slide {
+  color: rgb(247, 190, 33);
+  font-family: Pacifico;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(51, 255, 0);
+}
+
+.text-secondary {
+  color: rgb(247, 190, 33);
+  font-family: Pacifico;
+  text-align: center;
+}
+
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+  text-align: center;
+}
+
+.logo {
+  width: 75px;
+  margin-bottom: 5px;
+}
+
+form .fa-envelope {
+  font-size: 18px;
+  margin-right: 10px;
+  color: rgb(247, 190, 33);
+}
+
+form input {
+  width: 100%;
+  background: transparent;
+  color: rgb(247, 190, 33);
+  border: 0;
+  outline: none;
+}
+
+form button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+form button .fa-arrow-right {
+  font-size: 16px;
+  color: rgb(247, 190, 33);
+}
+
+.social-icons {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

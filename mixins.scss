@@ -1,0 +1,72 @@
+%course-card {
+    width: 200px;
+    margin: 0 10px;
+}
+
+%flex-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin card-about ($bc, $padding, $width, $height, $mt, $br){
+    background-color: $bc;
+    padding: $padding;
+    width: $width;
+    height: $height;
+    margin-top: $mt;
+    border-radius: $br;
+}
+
+@mixin text ($color, $ff) {
+    color: $color;
+    font-family: $ff;
+}
+
+%footer {
+    width: 100%;
+    bottom: 0;
+    background-color: $secondary;
+    padding: 10px 0 10px;
+    margin-top: 30px;
+    border-top: 1px solid $primery;
+}
+
+%row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+%form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid $primery;
+    margin-bottom: 15px;
+}
+
+%icons {
+    width: 50px;
+    height: 40px;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(90deg, rgba(72, 69, 255, 1) 0%, rgba(0, 255, 158, 1) 100%);
+    margin-right: 15px;
+    cursor: pointer;
+    border: 1px solid $primery;
+}
+
+%hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid $primery;
+    margin: 20px auto;
+}

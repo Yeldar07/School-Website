@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Font/Montserrat/Montserrat-SemiBold.eot');
+    src: url('Font/Montserrat/Montserrat-SemiBold.woff2') format('woff2'),
+        url('Font/Montserrat/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('Fonts/Pacifico/Pacifico-Regular.eot');
+    src: url('Fonts/Pacifico/Pacifico-Regular.woff2') format('woff2'),
+        url('Fonts/Pacifico/Pacifico-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import 'vars';
+@import 'mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(72, 69, 255);
+    background: linear-gradient(90deg, rgba(72, 69, 255, 1) 0%, rgba(0, 255, 158, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.info {
+    @extend %flex-card;
+    overflow: hidden;
+
+}
+
+.about {
+    @include card-about ($secondary, 20px 40px, 900px, 250px, 20px, 10px);
+    text-align: center;
+    position: relative;
+    border: 1px solid $primery;
+}
+
+.courses {
+    @extend %flex-card;
+    padding-top: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.front,
+.back,
+.ux {
+    @extend %course-card;
+}
+
+.text-primery {
+    @include text ($primery, Montserrat);
+    text-align: center;
+}
+
+.text-slide {
+    @include text ($primery, Pacifico);
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(51, 255, 0);
+}
+
+.text-secondary {
+    @include text ($primery, Pacifico);
+    text-align: center;
+}
+
+footer {
+    @extend %footer;
+}
+
+.row {
+    @extend %row;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    width: 75px;
+    margin-bottom: 5px;
+}
+
+form {
+    @extend %form;
+}
+
+form .fa-envelope {
+    font-size: 18px;
+    margin-right: 10px;
+    color: $primery;
+}
+
+form input {
+    width: 100%;
+    background: transparent;
+    color: $primery;
+    border: 0;
+    outline: none;
+}
+
+form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button .fa-arrow-right {
+    font-size: 16px;
+    color: $primery;
+}
+
+.social-icons .brands {
+    @extend %icons;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+hr.hr {
+    @extend %hr
+}
