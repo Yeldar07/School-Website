@@ -1,5 +1,5 @@
 <p align="center">
-      <img src="https://cdn3d.iconscout.com/3d/premium/thumb/web-search-3654545-3049734.png" alt="Project Logo" width="726">
+      <img src="https://cdn3d.iconscout.com/3d/premium/thumb/web-search-3654545-3049734.png" alt="Project Logo" width="626">
 </p>
 
 <p align="center">
@@ -8,25 +8,5 @@
 </p>
 
 ## About
+A small project with one main page of an online school website.
 
-About Text Here
-
-## Documentation
-
-Documentation Here
-
-## Distribute
-
-- [Service Name](Page Link)
-
-
-## Developers
-
-- [Delevoper Name](GitHub Profile Link)
-
-## License
-
-
-
-
-# Web-School Website
