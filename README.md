@@ -1,5 +1,5 @@
 <p align="center">
-      [<img src="Project Logo Url" width="726">](https://icons8.com/icon/111139/website)
+      img
 </p>
 
 <p align="center">
